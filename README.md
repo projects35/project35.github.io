@@ -27,6 +27,10 @@
 
 **تم تطوير المشروع داخل نظام لينكس.**
 
-### ملفات الموقع (.tar.gz)
+### الصفحة الرئيسية
 
-[https://github.com/projects35/sports-store.com](اضغك هنا للتحميل: https://github.com/projects35/sports-store.com/raw/refs/heads/main/source.tar.gz)
+https://github.com/projects35/sports-store.com
+
+## التحميل المباشر: (.tar.gz)
+
+https://github.com/projects35/sports-store.com/raw/refs/heads/main/source.tar.gz
