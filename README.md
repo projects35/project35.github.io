@@ -31,6 +31,6 @@
 
 https://github.com/projects35/sports-store.com
 
-## التحميل المباشر: (.tar.gz)
+**التحميل المباشر: (.tar.gz)**
 
 https://github.com/projects35/sports-store.com/raw/refs/heads/main/source.tar.gz
