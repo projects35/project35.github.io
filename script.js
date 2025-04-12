@@ -19,7 +19,6 @@ function removeFromCart(product) {
     saveCart(cart);
     showCart();
 
-    // الرسالة الحمراء
     const message = document.createElement("div");
     message.textContent = product + " تم إزالته من السلة.";
     message.style.position = "fixed";
