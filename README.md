@@ -9,11 +9,8 @@
 
 ## المميزات
 
-- تصميم متجاوب وجميل.
 - إمكانية "إضافة للسلة" وإزالتها (بشكل وهمي عن طريق localStorage).
 - استخدام HTML / CSS / JavaScript فقط.
-- لا يحتاج إلى سيرفر أو قاعدة بيانات.
-- يعمل مباشرة من المتصفح.
 
 ## طريقة التشغيل
 
@@ -32,4 +29,4 @@
 
 ### ملفات الموقع (.tar.gz)
 
-[https://github.com/projects35/sports-store.com] 
+[https://github.com/projects35/sports-store.com](اضغك هنا للتحميل: https://github.com/projects35/sports-store.com/raw/refs/heads/main/source.tar.gz)
