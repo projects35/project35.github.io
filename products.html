@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>المنتجات - متجر الرياضة</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html">الرئيسية</a>
+      <a href="cart.html">عرض السلة</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="section-title">المنتجات</h1>
+    <div class="product-grid">
+      <!-- منتج -->
+      <div class="product">
+        <img src="img/bike.jpg" alt="دراجة هوائية">
+        <h2>دراجة هوائية</h2>
+        <p>900 SAR دراجة عالية الجودة للمغامرات.</p>
+        <button onclick="addToCart('900 SAR دراجة هوائية')">إضافة للسلة</button>
+      </div>
+
+      <div class="product">
+        <img src="img/treadmill.jpg" alt="جهاز مشي">
+        <h2>جهاز مشي</h2>
+        <p>1799 SAR  جهاز مشي متطور بسرعات متعددة ومناسبة لجميع مستويات اللياقة، مع نظام امتصاص صدمات لحماية المفاصل.</p>
+        <button onclick="addToCart('1799 SAR جهاز مشي')">إضافة للسلة</button>
+      </div>
+
+      <div class="product">
+        <img src="img/dumbbell.jpg" alt="دامبل">
+        <h2>دامبل</h2>
+        <p>149 SAR أمجموعة دامبلز بأوزان متنوعة لتدريب القوة في المنزل بكل سهولة وفعالية.</p>
+        <button onclick="addToCart('149 SAR دامبل')">إضافة للسلة</button>
+      </div>
+
+      <div class="product">
+        <img src="img/mat.webp" alt="بساط يوغا">
+        <h2>بساط يوغا</h2>
+        <p>59 SAR بساط غير قابل للانزلاق، مريح وسهل التخزين لكل تمارين اليوغا أو البيلاتس.</p>
+        <button onclick="addToCart('59 SAR بساط يوغا')">إضافة للسلة</button>
+      </div>
+
+      <div class="product">
+        <img src="img/rowing.jpg" alt="جهاز تجديف">
+        <h2>جهاز تجديف</h2>
+        <p>1250 SAR تمرين كامل للجسم! جهاز التجديف يمنحك قوة وتحمل، ومثالي لتحريك كل عضلاتك.</p>
+        <button onclick="addToCart('1250 SAR جهاز تجديف')">إضافة للسلة</button>
+      </div>
+
+      <div class="product">
+        <img src="img/rope.jpg" alt="حبل قفز">
+        <h2>حبل قفز</h2>
+        <p>35 SAR أداة بسيطة لكنها فعالة لحرق الدهون، وزيادة اللياقة والتحمل.</p>
+        <button onclick="addToCart('35 SAR حبل قفز')">إضافة للسلة</button>
+      </div>
+
+      <div class="product">
+        <img src="img/mount.avif" alt="جهاز تسلق الجبال">
+        <h2>جهاز تسلق الجبال</h2>
+        <p>1599 SAR يحاكي تسلق الجبال للياقة عالية واحتراق سعرات حرارية بسرعة وفعالية.</p>
+        <button onclick="addToCart('1599 SAR جهاز تسلق الجبال')">إضافة للسلة</button>
+      </div>
+
+      <div class="product">
+        <img src="img/eliptical.webp" alt="جهاز بيضاوي">
+        <h2>جهاز بيضاوي</h2>
+        <p>1450 SAR تمارين منخفضة التأثير، عالية النتائج. جهاز بيضاوي لتدريب القلب والعضلات بدون إجهاد المفاصل.</p>
+        <button onclick="addToCart('1450 SAR جهاز بيضاوي')">إضافة للسلة</button>
+      </div>
+
+      <div class="product">
+        <img src="img/statbike.webp" alt="دراجة ثابتة">
+        <h2>دراجة ثابتة</h2>
+        <p>849 SAR حسّن لياقتك القلبية من راحة منزلك مع هذه الدراجة الثابتة القابلة للتعديل الأداء.</p>
+        <button onclick="addToCart('849 SAR دراجة ثابتة')">إضافة للسلة</button>
+      </div>
+
+      <div class="product">
+        <img src="img/2ball.jpg" alt="كرة تمارين">
+        <h2>كرة تمارين</h2>
+        <p>89 SAR مثالية لتقوية عضلات البطن والظهر وتحسين التوازن.</p>
+        <button onclick="addToCart('89 SAR كرة تمارين')">إضافة للسلة</button>
+      </div>
+
+      <div class="product">
+        <img src="img/bottle.jpg" alt="زجاجة ماء رياضية">
+        <h2>زجاجة ماء رياضية</h2>
+        <p>20 SAR تصميم عملي ومتين للحفاظ على رطوبتك أثناء التمارين.</p>
+        <button onclick="addToCart('20 SAR زجاجة ماء رياضية')">إضافة للسلة</button>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+  <div id="message" class="message"></div>
+</body>
+</html>
